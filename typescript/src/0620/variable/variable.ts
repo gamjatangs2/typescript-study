@@ -36,7 +36,7 @@ function constExample() {
 constExample();
 
 // 변수 선언
-// 타입스크립트에서는 타입을 명시적으로 선언해야 함.
+// 타입스크립트에서는 타입을 명시적으로 선언.
 // 변수 변수명: 타입 = 값;
 let car: string = 'BMW';
 
