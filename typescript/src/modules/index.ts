@@ -1,7 +1,9 @@
-import { IPerson, makePerson } from "./person/Person";
+// import { IPerson, makePerson } from "./person/Person";
 // import { 심벌 목록 } from "파일의 상대경로";
+import IPerson from "./person/Person";
+import Person, { makePerson } from './person/Person';
 
-const testMakePerson2 = (): void => {
+export const testMakePerson2 = (): void => {
     let daeho: IPerson = makePerson('Daeho')
     let share: IPerson = makePerson('Share')
     console.log(daeho, share);
